@@ -12,11 +12,12 @@
         <p id="salir"> Hola Admin</p>       
     </div>
     <div id="perfil">
-                <img src="imagenes/UTN.png">
+                <img class="logo" src="imagenes/UTN.png">
             </div>
             <p id="perfil">Perfiles</p>
-            <a id="dashboard" href="">Dashboard </a>
+            <a id="dashboard" href="admin.html">Dashboard </a>
             <p id="dashboard"><strong>></strong></p>
+            <p id="ubicado">Usuarios</p>
   <div id="navbar">
     <div id="holder">
     <ul>
@@ -30,7 +31,53 @@
     </div><!--end navbar div-->
 
     <div class="tabContent">
-        <p>Prueba</p>
+        <p>Listado de Usuarios</p><hr />          
+                    
+            <table border="1px">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Usuario</td>
+                    <td>Contraseña</td>
+                    <td>Teléfono</td>
+                    <td>Correo</td>
+                    <td>Dirección</td>
+                    <td>Opciones</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Admin</td>
+                    <td>Admin</td>
+                    <td>87334413</td>
+                    <td>jgs14@hotmail.com</td>
+                    <td>Urbanizacion la Leyla</td>
+                    <td><a href=""><img class="edit-1" src="imagenes/edit.png"/></a>
+                    <a href=""><img class="delete-1" src="imagenes/delete.png" /></a></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Beto</td>
+                    <td>Beto0920</td>
+                    <td>87924053</td>
+                    <td>olger0920@gmail.com</td>
+                    <td>Barrio los Ángeles</td>
+                    <td><a href=""><img class="edit-2" src="imagenes/edit.png"/></a>
+                    <a href=""><img class="delete-2" src="imagenes/delete.png" /></a></td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Sonia</td>
+                    <td>Sonia123</td>
+                    <td>83479207</td>
+                    <td>soniasolano@outlook.es</td>
+                    <td>Urbanizacion la Leyla</td>
+                    <td><a href=""><img class="edit-3" src="imagenes/edit.png"/></a>
+                    <a href=""><img class="delete-3" src="imagenes/delete.png" /></a></td>
+                </tr>
+                </tbody>
+            </table>
     </div>
 </body>
 </html>

@@ -12,11 +12,12 @@
         <p id="salir"> Hola Admin</p>       
     </div>
     <div id="perfil">
-                <img src="imagenes/UTN.png">
+                <img class="logo" src="imagenes/UTN.png">
             </div>
             <p id="perfil">Perfiles</p>
-            <a id="dashboard" href="">Dashboard </a>
+            <a id="dashboard" href="admin.html">Dashboard</a>
             <p id="dashboard"><strong>></strong></p>
+            <p id="ubicado">Carreras</p>
   <div id="navbar">
     <div id="holder">
     <ul>
@@ -30,7 +31,53 @@
     </div><!--end navbar div-->
 
     <div class="tabContent">
-        <p>Prueba</p>
+            <p>Listado de Carreras</p><hr />          
+                    
+            <table border="1px">
+            <thead>
+                <tr>
+                    <td>Código</td>
+                    <td>Nombre</td>
+                    <td>Duración</td>
+                    <td>Horario</td>
+                    <td>Nivel de Titulo</td>
+                    <td>Sedes</td>
+                    <td>Opciones</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ISW</td>
+                    <td>Ingenería en Software</td>
+                    <td>4 años</td>
+                    <td>Día y Noche</td>
+                    <td>Bachillerato</td>
+                    <td>San Carlos</td>
+                    <td><a href=""><img class="edit-1" src="imagenes/edit.png"/></a>
+                    <a href=""><img class="delete-1" src="imagenes/delete.png" /></a></td>
+                </tr>
+                <tr>
+                    <td>COFI</td>
+                    <td>Contabilidad</td>
+                    <td>5 Años</td>
+                    <td>Noche</td>
+                    <td>Licenciatura</td>
+                    <td>Alajuela</td>
+                    <td><a href=""><img class="edit-2" src="imagenes/edit.png"/></a>
+                    <a href=""><img class="delete-2" src="imagenes/delete.png" /></a></td>
+                </tr>
+                <tr>
+                    <td>ADM</td>
+                    <td>Comercio    Internacional</td>
+                    <td>3 Años</td>
+                    <td>Noche</td>
+                    <td>Maestría</td>
+                    <td>Atenas</td>
+                    <td><a href=""><img class="edit-3" src="imagenes/edit.png"/></a>
+                    <a href=""><img class="delete-3" src="imagenes/delete.png" /></a></td>
+                </tr>
+            </tbody>    
+            </table>
     </div>
 </body>
 </html>

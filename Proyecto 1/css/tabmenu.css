@@ -8,14 +8,14 @@ body{
 	width:100%;
 	position:absolute;
   top:182px;
-  left:350px;
+  left:146px;
 	
 }
 #navbar #holder{
 	height:64px;
 	border-bottom:1px solid #000;
-	width:630px;
-	padding-left:28px;
+	width:57%;
+	padding-left:54px;
 }
 
 #navbar #holder ul{
@@ -119,25 +119,86 @@ p#dashboard{
   left:263px;
   font-size: 1em;
 }
+
+p#ubicado{
+  position:absolute;
+  top:123px;
+  left:283px;
+  font-size: 1em;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
 .tabContent{
   position:absolute;
   top:242px;
-  left:340px;
+  left:134px;
   border: 1px solid#000;
-  border-top: none;
   margin: 4px 0;
   padding: 5px;
   padding-right: 29%;
-  width: 311px;
+  width: 41%;
   height: 250px;
-  box-shadow: 2px 5px 5px 3px rgba(5,5,5,.5);
-  -webkit-border-top-right-radius: 14px;
-  -webkit-border-top-left-radius: 14px;
-  
+  box-shadow: 6px 15px 0px 10px rgba(6,6,6,.6);
+  -webkit-border-radius: 14px;  
 }
 
-img{
+img.logo{
   width:8%;
   position: absolute;
   top:39px;
 }
+
+table{ 
+  width:144%;
+  border-spacing: 0px;
+  border-color: #000;
+  text-align:center;
+}
+
+table thead{
+  font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+table tr{
+  height:40px;
+
+}
+
+img.delete-1{
+  position: absolute;
+  left:81%;
+  top:44%;
+}
+
+img.edit-1{
+  position: absolute;
+  left:76%;
+  top:44%;
+}
+
+img.delete-2{
+  position: absolute;
+  left:81%;
+  top:60%;
+}
+
+img.edit-2{
+  position: absolute;
+  left:76%;
+  top:60%;
+}
+
+img.delete-3{
+  position: absolute;
+  left:81%;
+  top:75%;
+}
+
+img.edit-3{
+  position: absolute;
+  left:76%;
+  top:75%;
+}
+
+
