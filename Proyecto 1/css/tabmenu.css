@@ -1,0 +1,143 @@
+@charset "utf-8";
+body{
+  background: #e5e5e5;
+  font-family: verdana;
+  font-size: 1em;
+}
+#navbar {
+	width:100%;
+	position:absolute;
+  top:182px;
+  left:350px;
+	
+}
+#navbar #holder{
+	height:64px;
+	border-bottom:1px solid #000;
+	width:630px;
+	padding-left:28px;
+}
+
+#navbar #holder ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+}
+
+#navbar #holder ul li a{
+	text-decoration:none;
+	float:left;
+	margin-right:5px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:#000;
+	border: 1px solid#000;
+	border-bottom:none;
+	padding:20px;
+	width:95px;
+	text-align:center;
+	display:block;
+	background:#69F;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-topright:15px;
+	-webkit-border-top-left-radius:15px;
+  	-webkit-border-top-right-radius:15px; 
+	
+}
+
+#navbar #holder ul li a:hover{
+	background:#F90;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+}
+
+#holder ul li a#onlink{
+	background:#fff;
+	color:#000;
+	border-bottom:1px solid#FFF;
+	
+}
+
+#holder ul li a#onlink:hover {
+	backgroud:#fff;
+	color:#69f;
+	text-shadow:1px 1px 1px #000;
+}
+div#salir{
+  border:1px solid#000;
+  float: right;
+  border-radius:30px;
+  width: 14%;
+  height: 53px;
+}
+
+div#salir p{
+  float: right;
+
+}
+
+.salir{
+
+  -webkit-transition: width 3s ;
+}
+
+.salir:hover{
+  width: 20%;
+  -webkit-transform: rotate(360deg);
+}
+
+div#salir a{
+  float: right;
+  padding: 9%;
+  padding-right: 15%;
+  color: blue; 
+}
+p#perfil{
+  font-size:3em;
+  font-family: verdana;
+  position: absolute;
+  left:278px;
+  top:0px;
+  color:rgb(13, 29, 110);
+}
+
+div#perfil{
+  width:250px;
+  float: left;
+  margin-left: 13%;
+}
+a#dashboard{
+  position:absolute;
+  left:169px;
+  top:141px;
+  font-size: 1em;
+  color:  blue;
+}
+p#dashboard{
+  position:absolute;
+  top:125px;
+  left:263px;
+  font-size: 1em;
+}
+.tabContent{
+  position:absolute;
+  top:242px;
+  left:340px;
+  border: 1px solid#000;
+  border-top: none;
+  margin: 4px 0;
+  padding: 5px;
+  padding-right: 29%;
+  width: 311px;
+  height: 250px;
+  box-shadow: 2px 5px 5px 3px rgba(5,5,5,.5);
+  -webkit-border-top-right-radius: 14px;
+  -webkit-border-top-left-radius: 14px;
+  
+}
+
+img{
+  width:8%;
+  position: absolute;
+  top:39px;
+}
