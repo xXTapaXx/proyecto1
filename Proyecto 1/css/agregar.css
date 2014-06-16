@@ -4,7 +4,7 @@ body{
   font-family: verdana;
   font-size: 1em;
 }
-.tabContent{
+div.Contenido{
   position:absolute;
   top:150px;
   left:492px;
@@ -16,63 +16,6 @@ body{
   height:375px;
   box-shadow: 6px 15px 0px 10px rgba(6,6,6,.6);
   -webkit-border-radius: 14px;  
-}
-
-div#salir{
-  border:1px solid#000;
-  float: right;
-  border-radius:30px;
-  width: 14%;
-  height: 53px;
-}
-a#salir{
-  position: absolute;
-  right: 29px;
-  top: 19px;
-  -webkit-transition:width 3s,-webkit-transform: 3s;  
-}
-
-p#salir{
-  position: absolute;
-  right: 78px;
-  font-family: "Arial Black", Gadget, sans-serif;
-}
-
-p#perfil{
-  font-size:3em;
-  font-family: verdana;
-  position: absolute;
-  left:278px;
-  top:0px;
-  color:rgb(13, 29, 110);
-}
-
-div#perfil{
-  width:250px;
-  float: left;
-  margin-left: 13%;
-}
-
-a#dashboard{
-  position:absolute;
-  left:169px;
-  top:141px;
-  font-size: 1em;
-  color:  blue;
-}
-p#dashboard{
-  position:absolute;
-  top:125px;
-  left:263px;
-  font-size: 1em;
-}
-
-p#ubicado{
-  position:absolute;
-  top:123px;
-  left:283px;
-  font-size: 1em;
-  font-family: "Arial Black", Gadget, sans-serif;
 }
 
 img.logo{

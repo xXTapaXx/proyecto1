@@ -1,10 +1,12 @@
 //Agregar, Editar y Eliminar Carrera
 function agregarCarrera(){
  	alert("Carrera Agregada Existosamente");
+  header("Location: carreras.html"); 
  }
 
  function editarCarrera(){
  	alert("Carrera Editada Existosamente");
+  header("Location: carreras.html"); 
  }
 
 function eliminarCarrera(){
@@ -12,20 +14,22 @@ function eliminarCarrera(){
 
     if(r==true){
       alert("Carrera Eliminada Existosamente");
-      windows.location="alert.html";
+      header("Location: carreras.html"); 
     }
     else{
-      windows.location="alert.html";
+      header("Location: carreras.html"); 
     }
   }
 
 //Agregar, Editar y Eliminar Estudiante 
 function agregarEstudiante(){
  	alert("Estudiante Agregado Existosamente");
+  header("Location: estudiantes.html"); 
  } 
 
  function editarEstudiante(){
  	alert("Estudiante Editado Existosamente");
+  header("Location: estudiantes.html"); 
  }
 
 function eliminarEstudiante(){
@@ -33,20 +37,22 @@ function eliminarEstudiante(){
 
     if(r==true){
       alert("Estudiante Eliminado Existosamente");
-      windows.location="alert.html";
+      header("Location: estudiantes.html"); 
     }
     else{
-      windows.location="alert.html";
+      header("Location: estudiantes.html"); 
     }
   }
 
 //Agregar, Editar y Eliminar Usuario
 function agregarUsuario(){
  	alert("Usuario Agregado Existosamente");
+  header("Location: usuarios.html"); 
  }
 
  function editarUsuario(){
  	alert("Usuario Editado Existosamente");
+  header("Location: usuarios.html"); 
  }
 
 function eliminarUsuario(){
@@ -54,10 +60,10 @@ function eliminarUsuario(){
 
     if(r==true){
       alert("Usuario Eliminado Existosamente");
-      windows.location="alert.html";
+      header("Location: usuarios.html"); 
     }
     else{
-      windows.location="alert.html";
+      header("Location: usuarios.html"); 
     }
   }
 
