@@ -1,0 +1,107 @@
+@charset "utf-8";
+body{
+  background: #e5e5e5;
+  font-family: verdana;
+  font-size: 1em;
+}
+.tabContent{
+  position:absolute;
+  top:150px;
+  left:492px;
+  border: 1px solid#000;
+  margin: 4px 0;
+  padding: 5px;
+  padding-right: 29%;
+  width: 0%;
+  height:375px;
+  box-shadow: 6px 15px 0px 10px rgba(6,6,6,.6);
+  -webkit-border-radius: 14px;  
+}
+
+div#salir{
+  border:1px solid#000;
+  float: right;
+  border-radius:30px;
+  width: 14%;
+  height: 53px;
+}
+a#salir{
+  position: absolute;
+  right: 29px;
+  top: 19px;
+  -webkit-transition:width 3s,-webkit-transform: 3s;  
+}
+
+p#salir{
+  position: absolute;
+  right: 78px;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+p#perfil{
+  font-size:3em;
+  font-family: verdana;
+  position: absolute;
+  left:278px;
+  top:0px;
+  color:rgb(13, 29, 110);
+}
+
+div#perfil{
+  width:250px;
+  float: left;
+  margin-left: 13%;
+}
+
+a#dashboard{
+  position:absolute;
+  left:169px;
+  top:141px;
+  font-size: 1em;
+  color:  blue;
+}
+p#dashboard{
+  position:absolute;
+  top:125px;
+  left:263px;
+  font-size: 1em;
+}
+
+p#ubicado{
+  position:absolute;
+  top:123px;
+  left:283px;
+  font-size: 1em;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+img.logo{
+  width:8%;
+  position: absolute;
+  top:39px;
+}
+
+label, input{
+  text-align: center; 
+  width:70%;
+  height:23px;
+  position: absolute;
+  left:13%;
+}
+
+input#editar{
+  position:absolute;
+  left:20%; 
+  width:24%;
+  height:11%;
+  top:87%;
+}
+
+input#cancelar{
+  position:absolute;
+  left:55%; 
+  width:24%;
+  height:11%;
+  top:87%;
+}
+

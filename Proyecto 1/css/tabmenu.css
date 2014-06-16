@@ -41,7 +41,7 @@ body{
 	-moz-border-radius-topleft:15px;
 	-moz-border-radius-topright:15px;
 	-webkit-border-top-left-radius:15px;
-  	-webkit-border-top-right-radius:15px; 
+  -webkit-border-top-right-radius:15px; 
 	
 }
 
@@ -71,27 +71,34 @@ div#salir{
   height: 53px;
 }
 
-div#salir p{
-  float: right;
-
+div.testbox{
+  width: 46px;
+  height: 43px;
+  position: absolute;
+  right: 29px;
+  top: 19px;
+  background: url(imagenes/exitHover.png);
 }
 
-.salir{
-
-  -webkit-transition: width 3s ;
+a#salir{
+  position: absolute;
+  right: 29px;
+  top: 19px;
+  -webkit-transition:width 3s,-webkit-transform: 3s;
+  
 }
 
-.salir:hover{
-  width: 20%;
+p#salir{
+  position: absolute;
+  right: 78px;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+a#salir:hover{
   -webkit-transform: rotate(360deg);
+
 }
 
-div#salir a{
-  float: right;
-  padding: 9%;
-  padding-right: 15%;
-  color: blue; 
-}
 p#perfil{
   font-size:3em;
   font-family: verdana;
@@ -200,5 +207,13 @@ img.edit-3{
   left:76%;
   top:75%;
 }
+
+img.agregar{
+  position: absolute;
+  left: 93%;
+  top: 10%;
+}
+
+
 
 

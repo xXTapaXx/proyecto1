@@ -2,9 +2,9 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/tabmenu.css">
-
+<link rel="stylesheet" type="text/javascript" href="css/util.js">
 <meta charset=utf-8 />
-<title>Admin</title>
+<title>Carreras</title>
 </head>
 <body>
 <div id="salir">
@@ -31,9 +31,9 @@
     </div><!--end navbar div-->
 
     <div class="tabContent">
-            <p>Listado de Carreras</p><hr />          
-                    
-            <table border="1px">
+            <p>Listado de Carreras</p><hr />
+
+            <a href="agregarCarreras.html"><img class="agregar" src="imagenes/agregar.png"/></a> <table border="1px">
             <thead>
                 <tr>
                     <td>Código</td>
@@ -53,8 +53,8 @@
                     <td>Día y Noche</td>
                     <td>Bachillerato</td>
                     <td>San Carlos</td>
-                    <td><a href=""><img class="edit-1" src="imagenes/edit.png"/></a>
-                    <a href=""><img class="delete-1" src="imagenes/delete.png" /></a></td>
+            <td><a href="editarCarreras.html"><img class="edit-1" src="imagenes/edit.png"/></a>
+                    <a href="" onclick="msg()"><img class="delete-1" src="imagenes/delete.png" /></a></td>
                 </tr>
                 <tr>
                     <td>COFI</td>
@@ -63,8 +63,8 @@
                     <td>Noche</td>
                     <td>Licenciatura</td>
                     <td>Alajuela</td>
-                    <td><a href=""><img class="edit-2" src="imagenes/edit.png"/></a>
-                    <a href=""><img class="delete-2" src="imagenes/delete.png" /></a></td>
+            <td><a href="editarCarreras.html"><img class="edit-2" src="imagenes/edit.png"/></a>
+                    <a href="" onclick="msg()"><img class="delete-2" src="imagenes/delete.png" /></a></td>
                 </tr>
                 <tr>
                     <td>ADM</td>
@@ -73,8 +73,8 @@
                     <td>Noche</td>
                     <td>Maestría</td>
                     <td>Atenas</td>
-                    <td><a href=""><img class="edit-3" src="imagenes/edit.png"/></a>
-                    <a href=""><img class="delete-3" src="imagenes/delete.png" /></a></td>
+             <td><a href="editarCarreras.html"><img class="edit-3" src="imagenes/edit.png"/></a>
+                    <a href="" onclick="msg()"><img class="delete-3" src="imagenes/delete.png" /></a></td>
                 </tr>
             </tbody>    
             </table>
